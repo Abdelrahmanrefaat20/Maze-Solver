@@ -1,10 +1,8 @@
-package Maze;
 import Maze.*;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+void main(){
         Scanner in = new Scanner(System.in);
 
         char[][] raw = new char[5][5];
@@ -67,4 +65,3 @@ public class Main {
             System.out.println();
         }
     }
-}
